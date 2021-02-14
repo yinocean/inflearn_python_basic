@@ -96,17 +96,17 @@ print()
 # print()
 
 # 예제3
-try:
-    z = 'Cho' # 'Cho'
-    x = name.index(z)
-    print('{} Found it! {} in name'.format(z, x + 1))
-except ValueError as e:
-    print(e)
-    print('Not found it! - Occurrend ValueError!')
-else:
-    print('Ok! else.')
-finally: # finally는 예외가 발생하든 안하든 무조건 마지막에 실행됨
-    print('Ok! finally')
+# try:
+#     z = 'Cho' # 'Cho'
+#     x = name.index(z)
+#     print('{} Found it! {} in name'.format(z, x + 1))
+# except ValueError as e:
+#     print(e)
+#     print('Not found it! - Occurrend ValueError!')
+# else:
+#     print('Ok! else.')
+# finally: # finally는 예외가 발생하든 안하든 무조건 마지막에 실행됨
+#     print('Ok! finally')
 
 print()
 
@@ -114,13 +114,13 @@ print()
 # 예외 발생 : raise
 # raise 키워드로 예외 직접 발생
 
-try:
-    a = 'Park'
-    if a == 'Park':
-        print('Ok! Pass!')
-    else:
-        raise ValueError
-except ValueError:
-    print('Ocurred! Exception!')
-else:
-    print('Ok! else!')
+# try:
+#     a = 'Park'
+#     if a == 'Kim':
+#         print('Ok! Pass!')
+#     else:
+#         raise ValueError
+# except ValueError:
+#     print('Ocurred! Exception!')
+# else:
+#     print('Ok! else!')
